@@ -1,0 +1,49 @@
+started...
+Reading: ../detsim_sample/gampixpy_fullgeoanatruth-vd-reduced_g4_00_2Mhz_segmentlabel_lowtrig_5mmpitch.h5
+Writing: ../detsim_sample/clusters_dbscan_segment_lowtrig_waveform_features.csv
+Loaded drift map for 7810668 truth segments
+Event 0: limited pixel waveform samples from 43821 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Event 1: limited pixel waveform samples from 42718 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Processed 500 clusters...
+Event 2: limited pixel waveform samples from 45431 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Event 3: limited pixel waveform samples from 41890 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Processed 1000 clusters...
+Event 4: limited pixel waveform samples from 42271 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+/usr/lib/python3/dist-packages/scipy/optimize/_lsq/common.py:115: RuntimeWarning: divide by zero encountered in divide
+  phi_prime = -np.sum(suf ** 2 / denom**3) / p_norm
+Processed 1500 clusters...
+Event 5: limited pixel waveform samples from 42699 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Event 6: limited pixel waveform samples from 40285 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Processed 2000 clusters...
+Event 7: limited pixel waveform samples from 40715 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Processed 2500 clusters...
+Event 8: limited pixel waveform samples from 43591 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Event 9: limited pixel waveform samples from 41112 to 5000
+/usr/lib/python3/dist-packages/scipy/optimize/_minpack_py.py:1010: OptimizeWarning: Covariance of the parameters could not be estimated
+  warnings.warn('Covariance of the parameters could not be estimated',
+Processed 3000 clusters...
+Done.
+Events processed: 10
+Pixel waveform samples seen before limits: 424533
+Pixel waveform samples actually clustered: 50000
+DBSCAN noise pixel samples: 15172
+Clusters saved: 3293
+Output CSV: ../detsim_sample/clusters_dbscan_segment_lowtrig_waveform_features.csv
